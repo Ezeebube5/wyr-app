@@ -1,4 +1,22 @@
+# Would You Rather Project
+This project was created as part of Udacity's React Nanodegree.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This application was created with React and Redux to manage state. It allows users to create a question set to ask other users and poll for the results. User authentication and management is a mock implementation with user information created at application load time. Subsequent reloads of the site will require a new "login". The data is also created this way, so changes are not persisted between reloads (but are persisted while still within the application).
+
+### Packages used:
+    "@material-ui/core": "^4.10.0",
+    "@material-ui/icons": "^4.9.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-redux-loading": "^4.6.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
 
 ## Available Scripts
 
@@ -12,10 +30,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br />
 You will also see any lint errors in the console.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -33,9 +47,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
 ## Learn More
 
